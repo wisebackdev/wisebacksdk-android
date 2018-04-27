@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, WiseActivity.class);
-                intent.putExtra("formID", "deneme");
+                intent.putExtra("formID", "VgcfNL");
                 intent.putExtra("hasCloseButton", true); //optional, default: true
                 intent.putExtra("showProgress", false); //optional, default: false
                 intent.putExtra("animation", WiseActivity.Anim.DEFAULT); //optional, default: Anim.DEFAULT
